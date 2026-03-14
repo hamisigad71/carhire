@@ -76,7 +76,7 @@ export default function RolesPage() {
                        {group.items.map((perm) => (
                          <Flex key={perm} p={4} borderRadius="12px" bg={tokens.cardBg2} align="center" justify="space-between">
                             <Text fontSize="14px" fontWeight="600">{perm}</Text>
-                            <Box boxSize="20px" bg={tokens.accent} borderRadius="6px" display="flex" align="center" justify="center">
+                            <Box boxSize="20px" bg={tokens.accent} borderRadius="6px" display="flex" alignItems="center" justifyContent="center">
                                <Icon as={FiCheck} color="white" boxSize={3} />
                             </Box>
                          </Flex>

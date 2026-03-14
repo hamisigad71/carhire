@@ -157,8 +157,8 @@ export default function InspectionReportDetailsPage() {
                     bg={tokens.cardBg2}
                     borderRadius="12px"
                     display="flex"
-                    align="center"
-                    justify="center"
+                    alignItems="center"
+                    justifyContent="center"
                     border="1px dashed"
                     borderColor={tokens.border}
                   >
