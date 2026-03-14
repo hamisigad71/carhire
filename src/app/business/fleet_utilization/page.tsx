@@ -19,7 +19,7 @@ export default function FleetUtilizationPage() {
     { id: 'V-1005', name: 'Mercedes EQS', utilization: '88%', activeDays: 26, revenue: 12400 },
   ];
 
-  const columns = [
+  const columns: any[] = [
     { header: 'Vehicle', accessor: 'name' },
     { 
       header: 'Utilization Rate', 

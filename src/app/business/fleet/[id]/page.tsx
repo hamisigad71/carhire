@@ -95,7 +95,7 @@ export default function VehicleDetailsPage() {
         />
       </SimpleGrid>
 
-      <Grid templateColumns={["1fr", "1fr", "repeat(3, 1fr)"]} spacing={10}>
+      <Grid templateColumns={["1fr", "1fr", "repeat(3, 1fr)"]} gap={10}>
         <GridItem colSpan={[1, 1, 2]}>
           <Box
             bg={tokens.cardBg}
