@@ -2,7 +2,7 @@
 
 import { 
   Box, Container, VStack, Heading, Text, Button, Icon, 
-  Flex, Image, HStack, Divider, SimpleGrid
+  Flex, Image, HStack, Divider, SimpleGrid, Badge
 } from '@chakra-ui/react';
 import { FiCheckCircle, FiCalendar, FiArrowRight, FiFileText, FiDownload, FiMapPin } from 'react-icons/fi';
 import { useColorTokens } from '@/hooks/useColorTokens';
