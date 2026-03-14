@@ -17,7 +17,7 @@ const transactions = [
   { id: 'TX-9005', type: 'Credit', amount: 300, category: 'Security Deposit', date: 'Mar 08, 2026', method: 'Visa •••• 1111' },
 ];
 
-const columns = [
+const columns: any[] = [
   { header: 'TX ID', accessor: 'id', isSortable: true },
   { 
     header: 'Type', 

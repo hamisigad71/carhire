@@ -23,7 +23,7 @@ const staff = [
   { id: 'S-7005', name: 'Liam Hall', email: 'liam@elite.com', role: 'Fleet Manager', status: 'Active', lastActive: '12 mins ago' },
 ];
 
-const columns = [
+const columns: any[] = [
   { 
     header: 'Staff Member', 
     accessor: (row: any) => (

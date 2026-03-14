@@ -14,7 +14,7 @@ const serviceRecords = [
   { id: 'SR-4004', vehicle: 'Tesla Model 3', service: 'Interior Detailing', cost: 150, date: 'Feb 28, 2026', technician: 'CleanPro Ltd', status: 'Completed' },
 ];
 
-const columns = [
+const columns: any[] = [
   { header: 'Record ID', accessor: 'id', isSortable: true },
   { header: 'Vehicle', accessor: 'vehicle', isSortable: true },
   { header: 'Service Performed', accessor: 'service' },

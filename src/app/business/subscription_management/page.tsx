@@ -11,6 +11,7 @@ import {
   Heading,
   VStack,
   Badge,
+  Progress,
 } from "@chakra-ui/react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { FiCreditCard, FiZap, FiPackage, FiCheck } from "react-icons/fi";
