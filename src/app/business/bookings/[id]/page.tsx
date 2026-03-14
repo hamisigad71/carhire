@@ -243,8 +243,8 @@ export default function BookingDetailsPage() {
                   bg={tokens.accentGlow}
                   borderRadius="8px"
                   display="flex"
-                  align="center"
-                  justify="center"
+                  alignItems="center"
+                  justifyContent="center"
                   mr={3}
                 >
                   <Icon as={FiTruck} color={tokens.accent} />
